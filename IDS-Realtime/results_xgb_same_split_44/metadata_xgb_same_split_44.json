@@ -1,0 +1,25 @@
+{
+    "model": "XGBoost attack-only",
+    "source_split": "same as Random Forest data/X_train.csv and data/X_test.csv",
+    "benign_removed": true,
+    "features_count": 44,
+    "classes_global_labels": [
+        "1",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+    ],
+    "accuracy": 0.9974758147835071,
+    "f1_macro": 0.9295431544627257,
+    "f1_weighted": 0.9975165544075393
+}
